@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Lógica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <h1>Teste de Lógica</h1>
+            <p>60 questões sequenciais. 60 segundos por questão.</p>
+            <button id="btn-start" class="btn-primary">Iniciar Teste</button>
+        </div>
+
+        <!-- Test Screen -->
+        <div id="test-screen" class="screen">
+            <div class="header">
+                <span id="question-counter">Questão 1 / 60</span>
+                <span id="timer" class="timer">60s</span>
+            </div>
+            
+            <div id="question-container">
+                <h2 id="question-text"></h2>
+                <div id="options-container">
+                    <!-- Options will be injected here -->
+                </div>
+            </div>
+            
+            <div class="footer">
+                <button id="btn-next" class="btn-primary" disabled>Avançar</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <h1>Resultado do Teste</h1>
+            <div id="score-container">
+                <p>Você acertou <strong id="score">0</strong> de <strong id="total">60</strong> questões.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions_data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

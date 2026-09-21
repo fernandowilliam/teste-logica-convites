@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#app {
+    background: white;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.screen {
+    display: none;
+    flex-direction: column;
+}
+
+.screen.active {
+    display: flex;
+}
+
+#home-screen {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#home-screen h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home-screen p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.timer {
+    color: #d9534f;
+    font-size: 24px;
+}
+
+#question-text {
+    margin-bottom: 25px;
+    color: #222;
+    white-space: pre-wrap;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.option {
+    background: #f9f9f9;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.option:hover {
+    background: #f0f0f0;
+}
+
+.option.selected {
+    background: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+.btn-primary {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: #1976d2;
+}
+
+.btn-primary:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#result-screen {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#result-screen h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#score-container {
+    font-size: 24px;
+    color: #555;
+}
+
+#score, #total {
+    color: #2196f3;
+    font-weight: bold;
+}
