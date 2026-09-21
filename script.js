@@ -19,10 +19,18 @@ const optionsContainer = document.getElementById('options-container');
 const scoreDisplay = document.getElementById('score');
 const totalDisplay = document.getElementById('total');
 
+let userName = "";
+
+const userNameInput = document.getElementById('user-name');
+userNameInput.addEventListener('input', (e) => {
+    btnStart.disabled = e.target.value.trim().length === 0;
+});
+
 btnStart.addEventListener('click', startTest);
 btnNext.addEventListener('click', nextQuestion);
 
 function startTest() {
+    userName = userNameInput.value.trim();
     homeScreen.classList.remove('active');
     testScreen.classList.add('active');
     totalDisplay.innerText = window.allQuestions.length;
@@ -123,5 +131,25 @@ function showResult() {
         const li = document.createElement('li');
         li.innerText = `Questão ${q.questionNumber}: ${q.timeSpent}s`;
         timeList.appendChild(li);
+    });
+    
+    // Ranking Logic
+    const rankingKey = 'logicTestRanking';
+    let rankings = JSON.parse(localStorage.getItem(rankingKey) || '[]');
+    rankings.push({
+        name: userName,
+        score: score,
+        time: `${minutes}m ${seconds}s`
+    });
+    // Sort by score descending, then by time ascending
+    rankings.sort((a, b) => b.score - a.score);
+    localStorage.setItem(rankingKey, JSON.stringify(rankings));
+    
+    const rankingList = document.getElementById('ranking-list');
+    rankingList.innerHTML = '';
+    rankings.forEach(r => {
+        const li = document.createElement('li');
+        li.innerText = `${r.name} - ${r.score} acertos (${r.time})`;
+        rankingList.appendChild(li);
     });
 }

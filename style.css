@@ -177,3 +177,44 @@ body {
 #time-list li:last-child {
     border-bottom: none;
 }
+
+#user-name {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ranking-container {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fdfdfd;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+}
+
+#ranking-container h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#ranking-list {
+    padding-left: 20px;
+    color: #555;
+}
+
+#ranking-list li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}

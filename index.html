@@ -12,7 +12,8 @@
         <div id="home-screen" class="screen active">
             <h1>Teste de Lógica</h1>
             <p>60 questões sequenciais. 60 segundos por questão.</p>
-            <button id="btn-start" class="btn-primary">Iniciar Teste</button>
+            <input type="text" id="user-name" placeholder="Digite seu nome para o ranking" />
+            <button id="btn-start" class="btn-primary" disabled>Iniciar Teste</button>
         </div>
 
         <!-- Test Screen -->
@@ -45,6 +46,11 @@
             <div id="time-stats">
                 <h3>Tempo por Questão:</h3>
                 <ul id="time-list"></ul>
+            </div>
+            
+            <div id="ranking-container">
+                <h3>Ranking Geral</h3>
+                <ol id="ranking-list"></ol>
             </div>
         </div>
     </div>
