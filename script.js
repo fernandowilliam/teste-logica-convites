@@ -3,6 +3,9 @@ let score = 0;
 let timer;
 let timeLeft = 60;
 let selectedOption = null;
+let timeSpentPerQuestion = [];
+let testStartTime = null;
+let questionStartTime = null;
 
 const homeScreen = document.getElementById('home-screen');
 const testScreen = document.getElementById('test-screen');
@@ -23,6 +26,7 @@ function startTest() {
     homeScreen.classList.remove('active');
     testScreen.classList.add('active');
     totalDisplay.innerText = window.allQuestions.length;
+    testStartTime = new Date();
     loadQuestion();
 }
 
@@ -32,6 +36,7 @@ function loadQuestion() {
     btnNext.disabled = true;
     timeLeft = 60;
     timerDisplay.innerText = timeLeft + 's';
+    questionStartTime = new Date();
     
     if (currentQuestionIndex >= window.allQuestions.length) {
         showResult();
@@ -83,6 +88,14 @@ function nextQuestion() {
     clearInterval(timer);
     const currentQ = window.allQuestions[currentQuestionIndex];
     
+    // Calculate time spent
+    const now = new Date();
+    const timeSpent = Math.floor((now - questionStartTime) / 1000);
+    timeSpentPerQuestion.push({
+        questionNumber: currentQuestionIndex + 1,
+        timeSpent: timeSpent > 60 ? 60 : timeSpent // cap at 60s
+    });
+    
     if (selectedOption === currentQ.correct) {
         score++;
     }
@@ -95,4 +108,20 @@ function showResult() {
     testScreen.classList.remove('active');
     resultScreen.classList.add('active');
     scoreDisplay.innerText = score;
+    
+    const now = new Date();
+    const totalTimeSeconds = Math.floor((now - testStartTime) / 1000);
+    const minutes = Math.floor(totalTimeSeconds / 60);
+    const seconds = totalTimeSeconds % 60;
+    
+    document.getElementById('total-time').innerText = `${minutes}m ${seconds}s`;
+    
+    const timeList = document.getElementById('time-list');
+    timeList.innerHTML = '';
+    
+    timeSpentPerQuestion.forEach(q => {
+        const li = document.createElement('li');
+        li.innerText = `Questão ${q.questionNumber}: ${q.timeSpent}s`;
+        timeList.appendChild(li);
+    });
 }

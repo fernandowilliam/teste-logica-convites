@@ -143,3 +143,37 @@ body {
     color: #2196f3;
     font-weight: bold;
 }
+
+#time-stats {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#time-stats h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+#time-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#time-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#time-list li:last-child {
+    border-bottom: none;
+}
