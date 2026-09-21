@@ -21,13 +21,60 @@ const totalDisplay = document.getElementById('total');
 
 let userName = "";
 
+// --- ANTI-CHEAT TELEMETRY ---
+let acTelemetry = {
+    mouseMoves: [],
+    blurCount: 0,
+    blurTotalTime: 0,
+    honeypotTriggered: false,
+    untrustedEvents: 0,
+    webdriver: navigator.webdriver || false,
+    viewportAnomaly: (window.outerWidth && (window.innerWidth > window.outerWidth))
+};
+let lastBlurTimestamp = 0;
+
+window.addEventListener('blur', () => {
+    acTelemetry.blurCount++;
+    lastBlurTimestamp = Date.now();
+});
+
+window.addEventListener('focus', () => {
+    if (lastBlurTimestamp > 0) {
+        acTelemetry.blurTotalTime += (Date.now() - lastBlurTimestamp);
+        lastBlurTimestamp = 0;
+    }
+});
+
+document.addEventListener('mousemove', (e) => {
+    // Sub-sample mouse moves to avoid memory overflow (1 in 10)
+    if (Math.random() < 0.1) {
+        acTelemetry.mouseMoves.push({ x: e.clientX, y: e.clientY, t: Date.now() });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hpBtn = document.getElementById('honeypot-btn');
+    if (hpBtn) {
+        hpBtn.addEventListener('click', () => {
+            acTelemetry.honeypotTriggered = true;
+        });
+    }
+});
+// ----------------------------
+
 const userNameInput = document.getElementById('user-name');
 userNameInput.addEventListener('input', (e) => {
     btnStart.disabled = e.target.value.trim().length === 0;
 });
 
-btnStart.addEventListener('click', startTest);
-btnNext.addEventListener('click', nextQuestion);
+btnStart.addEventListener('click', (e) => {
+    if (!e.isTrusted) acTelemetry.untrustedEvents++;
+    startTest();
+});
+btnNext.addEventListener('click', (e) => {
+    if (!e.isTrusted) acTelemetry.untrustedEvents++;
+    nextQuestion();
+});
 
 function startTest() {
     userName = userNameInput.value.trim();
@@ -63,14 +110,18 @@ function loadQuestion() {
         const div = document.createElement('div');
         div.className = 'option';
         div.innerHTML = `<strong>(${opt.letter})</strong>&nbsp;&nbsp;<span>${opt.text}</span>`;
-        div.addEventListener('click', () => selectOption(div, opt.letter));
+        div.addEventListener('click', (e) => selectOption(e, div, opt.letter));
         optionsContainer.appendChild(div);
     });
     
     startTimer();
 }
 
-function selectOption(optionElement, letter) {
+function selectOption(e, optionElement, letter) {
+    if (e && !e.isTrusted) {
+        acTelemetry.untrustedEvents++;
+    }
+
     const allOptions = document.querySelectorAll('.option');
     allOptions.forEach(opt => opt.classList.remove('selected'));
     
@@ -133,23 +184,66 @@ function showResult() {
         timeList.appendChild(li);
     });
     
+    // Calculate Bot Probability
+    let botScore = 0;
+    
+    // 1. Honeypot check (instant flag)
+    if (acTelemetry.honeypotTriggered) botScore += 50;
+    
+    // 2. Untrusted events
+    if (acTelemetry.untrustedEvents > 0) botScore += 40;
+    
+    // 3. Webdriver presence
+    if (acTelemetry.webdriver) botScore += 50;
+    
+    // 4. Time heuristics (faster than humanly possible reading)
+    const tooFastAnswers = timeSpentPerQuestion.filter(q => q.timeSpent < 2).length;
+    if (tooFastAnswers > 5) botScore += 30; // More than 5 questions answered in <2s
+    
+    // 5. Blur anomalies (lost focus a lot)
+    if (acTelemetry.blurCount > 10 || acTelemetry.blurTotalTime > 60000) botScore += 20;
+    
+    // 6. Viewport Anomaly
+    if (acTelemetry.viewportAnomaly) botScore += 15;
+    
+    // 7. Mouse movement heuristcs (Robots usually have 0 mouse moves or linear)
+    if (acTelemetry.mouseMoves.length === 0 && !('ontouchstart' in window)) {
+        // No mouse movement on a non-touch device is very suspicious for a 60-question test
+        botScore += 25;
+    }
+    
+    const finalBotProbability = Math.min(100, botScore);
+
     // Ranking Logic
     const rankingKey = 'logicTestRanking';
     let rankings = JSON.parse(localStorage.getItem(rankingKey) || '[]');
     rankings.push({
         name: userName,
         score: score,
-        time: `${minutes}m ${seconds}s`
+        time: `${minutes}m ${seconds}s`,
+        botProb: finalBotProbability
     });
-    // Sort by score descending, then by time ascending
-    rankings.sort((a, b) => b.score - a.score);
+    // Sort by score descending, then by bot probability ascending
+    rankings.sort((a, b) => {
+        if (b.score === a.score) {
+            return (a.botProb || 0) - (b.botProb || 0); // lower bot prob is better
+        }
+        return b.score - a.score;
+    });
     localStorage.setItem(rankingKey, JSON.stringify(rankings));
     
     const rankingList = document.getElementById('ranking-list');
     rankingList.innerHTML = '';
     rankings.forEach(r => {
         const li = document.createElement('li');
-        li.innerText = `${r.name} - ${r.score} acertos (${r.time})`;
+        const prob = r.botProb !== undefined ? r.botProb : 0;
+        
+        let botLabel = '';
+        if (prob >= 70) botLabel = ' <span style="color:red; font-weight:bold;">[🤖 BOT DETECTADO]</span>';
+        else if (prob > 30) botLabel = ' <span style="color:orange;">[⚠️ Suspeito]</span>';
+        else botLabel = ' <span style="color:green;">[✅ Humano]</span>';
+        
+        li.innerHTML = `<strong>${r.name}</strong> - ${r.score} acertos (${r.time}) | Prob. Bot: ${prob}% ${botLabel}`;
         rankingList.appendChild(li);
     });
 }
