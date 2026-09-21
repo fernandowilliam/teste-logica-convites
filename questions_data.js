@@ -1,6 +1,6 @@
 window.allQuestions = [
   {
-    "question": "Fatoração & Primos\n\n  Se   x e y são números inteiros positivos tais que 2x · 3y = 1152, qual é o valor de x + y?",
+    "question": "Fatoração & Primos\n\n Se x e y são números inteiros positivos tais que 2x · 3y = 1152, qual é o valor de x + y?",
     "options": [
       {
         "letter": "A",
@@ -26,7 +26,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Porcentagem & Lucro\n\n  Uma loja vendeu um produto com 20% de lucro sobre o preço de custo. Se o produto tivesse sido vendido por\n  $30 a mais, o lucro seria de 30% sobre o preço de custo. Qual foi o preço de custo do produto?",
+    "question": "Porcentagem & Lucro\n\n Uma loja vendeu um produto com 20% de lucro sobre o preço de custo. Se o produto tivesse sido vendido por\n $30 a mais, o lucro seria de 30% sobre o preço de custo. Qual foi o preço de custo do produto?",
     "options": [
       {
         "letter": "A",
@@ -52,7 +52,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Módulos & Desigualdades\n\n  Se   a e b são números inteiros tais que |a − 3| ≤ 2 e |b + 1| ≤ 4, qual é o maior valor possível para a expressão a − b?",
+    "question": "Módulos & Desigualdades\n\n Se a e b são números inteiros tais que |a − 3| ≤ 2 e |b + 1| ≤ 4, qual é o maior valor possível para a expressão a − b?",
     "options": [
       {
         "letter": "A",
@@ -78,7 +78,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Estatística & Médias\n\n  A média aritmética de um conjunto de 8 números é 14. Se dois números, 6 e 22, forem removidos do conjunto,\n  qual será a nova média aritmética dos números restantes?",
+    "question": "Estatística & Médias\n\n A média aritmética de um conjunto de 8 números é 14. Se dois números, 6 e 22, forem removidos do conjunto,\n qual será a nova média aritmética dos números restantes?",
     "options": [
       {
         "letter": "A",
@@ -104,7 +104,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Velocidade Média\n\n  A que velocidade média, em km/h, um carro deve trafegar para percorrer uma distância de 180 km em\n  exatamente 2 horas e 15 minutos?",
+    "question": "Velocidade Média\n\n A que velocidade média, em km/h, um carro deve trafegar para percorrer uma distância de 180 km em\n exatamente 2 horas e 15 minutos?",
     "options": [
       {
         "letter": "A",
@@ -124,13 +124,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "90 km/h      — Quantitative Reasoning                                                                     Página 1 de 5"
+        "text": "90 km/h"
       }
     ],
     "correct": "C"
   },
   {
-    "question": "Equações Exponenciais\n\n  Se   3x+1 − 3x = 162, qual é o valor de x?",
+    "question": "Equações Exponenciais\n\n Se 3x+1 − 3x = 162, qual é o valor de x?",
     "options": [
       {
         "letter": "A",
@@ -156,7 +156,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Razões & Misturas\n\n  Um reservatório contém uma mistura de 40 litros composta por álcool e água na proporção de 3:1,\n  respectivamente. Quantos litros de água pura devem ser adicionados para que a nova proporção de álcool para\n  água seja de 1:1?",
+    "question": "Razões & Misturas\n\n Um reservatório contém uma mistura de 40 litros composta por álcool e água na proporção de 3:1,\n respectivamente. Quantos litros de água pura devem ser adicionados para que a nova proporção de álcool para\n água seja de 1:1?",
     "options": [
       {
         "letter": "A",
@@ -182,7 +182,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Propriedades dos Números\n\n  Se   n é um inteiro positivo, qual é o resto da divisão da expressão n2 + 3n + 5 por 2?",
+    "question": "Propriedades dos Números\n\n Se n é um inteiro positivo, qual é o resto da divisão da expressão n2 + 3n + 5 por 2?",
     "options": [
       {
         "letter": "A",
@@ -202,13 +202,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "Impossível                                                                                                          determinar"
+        "text": "Impossível determinar"
       }
     ],
     "correct": "B"
   },
   {
-    "question": "Otimização Aritmética\n\n  Qual é a menor quantidade total de moedas necessária para totalizar $0,87 usando apenas moedas nos valores\n  de $0,25, $0,10, $0,05 e $0,01?",
+    "question": "Otimização Aritmética\n\n Qual é a menor quantidade total de moedas necessária para totalizar $0,87 usando apenas moedas nos valores\n de $0,25, $0,10, $0,05 e $0,01?",
     "options": [
       {
         "letter": "A",
@@ -234,7 +234,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Equações Quadráticas\n\n  Se a equação quadrática     x2 − kx + 16 = 0 possui exatamente uma solução real, qual é um valor possível para a\n  constante ?  k",
+    "question": "Equações Quadráticas\n\n Se a equação quadrática x2 − kx + 16 = 0 possui exatamente uma solução real, qual é um valor possível para a\n constante ? k",
     "options": [
       {
         "letter": "A",
@@ -254,13 +254,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "12      — Quantitative Reasoning                                                                    Página 2 de 5"
+        "text": "12"
       }
     ],
     "correct": "D"
   },
   {
-    "question": "Problemas de Trabalho\n\n  A Máquina A leva 6 horas para concluir um lote de produção operando sozinha. A Máquina B leva 12 horas para\n  realizar o mesmo trabalho. Quanto tempo as duas máquinas levarão para concluir o lote trabalhando juntas?",
+    "question": "Problemas de Trabalho\n\n A Máquina A leva 6 horas para concluir um lote de produção operando sozinha. A Máquina B leva 12 horas para\n realizar o mesmo trabalho. Quanto tempo as duas máquinas levarão para concluir o lote trabalhando juntas?",
     "options": [
       {
         "letter": "A",
@@ -286,7 +286,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Manipulação Algébrica\n\n  Se   x > 0 e x2 + 1/x2 = 14, qual é o valor de x + 1/x?",
+    "question": "Manipulação Algébrica\n\n Se x > 0 e x2 + 1/x2 = 14, qual é o valor de x + 1/x?",
     "options": [
       {
         "letter": "A",
@@ -312,7 +312,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Progressão Geométrica\n\n  Em uma sequência geométrica em que cada termo após o primeiro é obtido multiplicando o anterior pela\n               r\n  constante , o 2º termo é 6 e o 5º termo é 48. Qual é o 1º termo?",
+    "question": "Progressão Geométrica\n\n Em uma sequência geométrica em que cada termo após o primeiro é obtido multiplicando o anterior pela\n r\n constante , o 2º termo é 6 e o 5º termo é 48. Qual é o 1º termo?",
     "options": [
       {
         "letter": "A",
@@ -338,7 +338,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Progressão Aritmética\n\n  Qual é a soma de todos os números inteiros ímpares de 1 a 99, inclusive?",
+    "question": "Progressão Aritmética\n\n Qual é a soma de todos os números inteiros ímpares de 1 a 99, inclusive?",
     "options": [
       {
         "letter": "A",
@@ -364,7 +364,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Funções e Inversas\n\n  Se   f(x) = (2x + 1) / (x − 3) para todo x ≠ 3, qual é o valor da função inversa f−1(3)?",
+    "question": "Funções e Inversas\n\n Se f(x) = (2x + 1) / (x − 3) para todo x ≠ 3, qual é o valor da função inversa f−1(3)?",
     "options": [
       {
         "letter": "A",
@@ -384,13 +384,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "11      — Quantitative Reasoning                                                                   Página 3 de 5"
+        "text": "11"
       }
     ],
     "correct": "D"
   },
   {
-    "question": "Probabilidade\n\n  Qual é a probabilidade de obter pelo menos um número par ao lançar simultaneamente dois dados honestos de\n  6 faces?",
+    "question": "Probabilidade\n\n Qual é a probabilidade de obter pelo menos um número par ao lançar simultaneamente dois dados honestos de\n 6 faces?",
     "options": [
       {
         "letter": "A",
@@ -416,7 +416,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Análise Combinatória\n\n  De quantas maneiras distintas um comitê de 3 pessoas pode ser escolhido a partir de um grupo de 7 candidatos\n  disponíveis?",
+    "question": "Análise Combinatória\n\n De quantas maneiras distintas um comitê de 3 pessoas pode ser escolhido a partir de um grupo de 7 candidatos\n disponíveis?",
     "options": [
       {
         "letter": "A",
@@ -442,7 +442,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Variação Percentual\n\n  Se o preço de um ativo financeiro aumenta 25% no primeiro ano e depois sofre uma redução de 20% no segundo\n  ano, qual é a variação percentual líquida do preço ao final dos dois anos?",
+    "question": "Variação Percentual\n\n Se o preço de um ativo financeiro aumenta 25% no primeiro ano e depois sofre uma redução de 20% no segundo\n ano, qual é a variação percentual líquida do preço ao final dos dois anos?",
     "options": [
       {
         "letter": "A",
@@ -462,13 +462,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "+12,5%                                    alteração)"
+        "text": "+12,5% alteração)"
       }
     ],
     "correct": "B"
   },
   {
-    "question": "Logaritmos & Propriedades\n\n  Se   x, y > 0 e log2(x) + log2(y) = 5, qual é o valor exato do produto x · y?",
+    "question": "Logaritmos & Propriedades\n\n Se x, y > 0 e log2(x) + log2(y) = 5, qual é o valor exato do produto x · y?",
     "options": [
       {
         "letter": "A",
@@ -494,7 +494,7 @@ window.allQuestions = [
     "correct": "D"
   },
   {
-    "question": "Teoria dos Conjuntos\n\n  Em uma turma de 50 estudantes, 30 estudam Espanhol, 25 estudam Francês e 10 estudam ambos os idiomas.\n  Quantos estudantes não estudam nenhum desses dois idiomas?",
+    "question": "Teoria dos Conjuntos\n\n Em uma turma de 50 estudantes, 30 estudam Espanhol, 25 estudam Francês e 10 estudam ambos os idiomas.\n Quantos estudantes não estudam nenhum desses dois idiomas?",
     "options": [
       {
         "letter": "A",
@@ -514,7 +514,7 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "15      — Quantitative Reasoning                                                                 Página 4 de 5"
+        "text": "15"
       }
     ],
     "correct": "A"
@@ -524,11 +524,11 @@ window.allQuestions = [
     "options": [
       {
         "letter": "A",
-        "text": "Outras empresas da mesma região sem programas de bem-estar registraram um aumento de 10% nas licenças médicas no    mesmo período."
+        "text": "Outras empresas da mesma região sem programas de bem-estar registraram um aumento de 10% nas licenças médicas no mesmo período."
       },
       {
         "letter": "B",
-        "text": "As taxas de rotatividade de funcionários permaneceram absolutamente inalteradas após a introdução do programa de bem-    estar."
+        "text": "As taxas de rotatividade de funcionários permaneceram absolutamente inalteradas após a introdução do programa de bem- estar."
       },
       {
         "letter": "C",
@@ -569,7 +569,7 @@ window.allQuestions = [
         "text": "Pontes com pedágio semelhantes em estados vizinhos atingiram a lucratividade em dois anos."
       }
     ],
-    "correct": "B"
+    "correct": "C"
   },
   {
     "question": "RC — Pressuposto (Assumption)\n\n Argumento: Uma empresa de tecnologia planeja substituir seus atendentes humanos de suporte por um chatbot\n avançado de Inteligência Artificial. A diretoria afirma que, como o chatbot pode responder a dúvidas rotineiras\n instantaneamente, os índices gerais de satisfação do cliente aumentarão.\n Em qual dos seguintes pressupostos a argumentação da diretoria se baseia?",
@@ -595,7 +595,7 @@ window.allQuestions = [
         "text": "Concorrentes do setor já implementaram sistemas semelhantes de chatbots de IA."
       }
     ],
-    "correct": "C"
+    "correct": "B"
   },
   {
     "question": "RC — Inferência Lógica\n\n Premissas: Todos os engenheiros de software que concluíram o módulo avançado de cibersegurança foram promovidos\n em até seis meses. Nenhum engenheiro de software que reprovou no treinamento de ética foi promovido este ano. Helena\n é uma engenheira de software que foi promovida há quatro meses.\n Com base nas afirmações acima, qual das seguintes opções DEVE ser verdadeira?",
@@ -647,7 +647,7 @@ window.allQuestions = [
         "text": "explicar por que a infraestrutura logística é o único fator relevante para empresas multinacionais."
       }
     ],
-    "correct": "E"
+    "correct": "B"
   },
   {
     "question": "IT — Inferência\n\n Pode-se inferir do texto que um país com impostos corporativos baixos, porém com fraca proteção aos direitos de\n propriedade:",
@@ -673,7 +673,7 @@ window.allQuestions = [
         "text": "mantém um nível de independência judicial superior ao de seus países vizinhos."
       }
     ],
-    "correct": "A"
+    "correct": "B"
   },
   {
     "question": "IT — Detalhe do Texto\n\n De acordo com o texto, todos os itens a seguir são mencionados como fatores institucionais, EXCETO:",
@@ -699,7 +699,7 @@ window.allQuestions = [
         "text": "garantia jurídica dos direitos de propriedade"
       }
     ],
-    "correct": "B"
+    "correct": "D"
   },
   {
     "question": "IT — Tom do Autor\n\n A atitude do autor em relação a políticas econômicas baseadas unicamente em corte de impostos para atrair\n investimento estrangeiro pode ser descrita como:",
@@ -722,7 +722,7 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "contrária a qualquer forma de investimento internacional   — Verbal Reasoning                                                                                     Página 2 de 5"
+        "text": "contrária a qualquer forma de investimento internacional"
       }
     ],
     "correct": "C"
@@ -751,7 +751,7 @@ window.allQuestions = [
         "text": "Se o preço do grão de café orgânico aumentou ao longo do mesmo período de seis meses."
       }
     ],
-    "correct": "D"
+    "correct": "E"
   },
   {
     "question": "RC — Papel do Trecho (Boldface)\n\n Argumento: Muitos defensores da transição energética afirmam que parques eólicos offshore eliminarão completamente\n a dependência de combustíveis fósseis nas regiões litorâneas. Embora as turbinas eólicas offshore gerem volumes\n expressivos de eletricidade limpa em períodos de ventos fortes, elas estão inerentemente sujeitas à intermitência\n climática. Portanto, depender exclusivamente da geração eólica sem sistemas de armazenamento em baterias ou fontes\n de reserva coloca em risco a estabilidade da rede elétrica.\n No argumento acima, as duas partes em negrito desempenham quais papéis?",
@@ -762,7 +762,7 @@ window.allQuestions = [
       },
       {
         "letter": "B",
-        "text": "A primeira reconhece um fato que pondera contra a posição do autor; a segunda é uma alegação usada para fundamentar a    conclusão principal do autor."
+        "text": "A primeira reconhece um fato que pondera contra a posição do autor; a segunda é uma alegação usada para fundamentar a conclusão principal do autor."
       },
       {
         "letter": "C",
@@ -777,7 +777,7 @@ window.allQuestions = [
         "text": "A primeira é uma generalização; a segunda é um exemplo específico que ilustra essa generalização."
       }
     ],
-    "correct": "E"
+    "correct": "B"
   },
   {
     "question": "RC — Falha de Raciocínio\n\n Argumento: Todos os empreendedores de sucesso analisados em uma pesquisa recente demonstraram alta tolerância a\n riscos. Marcos possui uma altíssima tolerância a riscos financeiros. Portanto, Marcos certamente se tornará um\n empreendedor de sucesso.\n O raciocínio do argumento acima é falho porque:",
@@ -818,7 +818,7 @@ window.allQuestions = [
       },
       {
         "letter": "C",
-        "text": "A redução do imposto atraiu um grande fluxo de consumidores de regiões vizinhas, aumentando drasticamente o volume total    de vendas tributáveis."
+        "text": "A redução do imposto atraiu um grande fluxo de consumidores de regiões vizinhas, aumentando drasticamente o volume total de vendas tributáveis."
       },
       {
         "letter": "D",
@@ -826,10 +826,10 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "A câmara municipal aprovou um novo imposto predial sobre imóveis comerciais.     — Verbal Reasoning                                                                                       Página 3 de 5"
+        "text": "A câmara municipal aprovou um novo imposto predial sobre imóveis comerciais."
       }
     ],
-    "correct": "B"
+    "correct": "C"
   },
   {
     "question": "TEXTO 2 (QUESTÕES 13-16) - CIÊNCIAS DA VIDA & ECOLOGIA\nOs fungos micorrízicos estabelecem associações simbióticas com o sistema radicular de aproximadamente 90% das espécies de plantas terrestres. Nessa relação mutualística, os fungos absorvem minerais essenciais do solo — predominantemente fósforo e nitrogênio — e os transferem para a planta hospedeira. Em troca, a planta fornece aos fungos compostos de carbono derivados da fotossíntese. Pesquisas recentes indicam que essas redes fúngicas se estendem muito além de pares individuais de plantas, formando complexas estruturas subterrâneas conhecidas como Redes Micorrízicas Comuns (RMCs), que conectam múltiplas plantas, inclusive de espécies distintas. Por meio das RMCs, as plantas conseguem transferir carbono, nutrientes e sinais bioquímicos de alerta para vegetais vizinhos. Por exemplo, quando uma planta é atacada por insetos herbívoros, ela pode emitir moléculas sinalizadoras pela rede fúngica para alertar plantas adjacentes não infestadas, permitindo que estas sintetizem antecipadamente defesas químicas. Essa descoberta desafia os modelos evolutivos tradicionais, que interpretavam as interações entre plantas como puramente antagônicas e competitivas, revelando que redes cooperativas subterrâneas desempenham um papel vital na resiliência dos ecossistemas.\n\nIT — Idéia Central\n\n Qual das seguintes opções melhor expressa a ideia central do texto?",
@@ -840,11 +840,11 @@ window.allQuestions = [
       },
       {
         "letter": "B",
-        "text": "As Redes Micorrízicas Comuns facilitam a troca subterrânea de recursos e sinais, evidenciando uma dimensão cooperativa nos    ecossistemas vegetais."
+        "text": "As Redes Micorrízicas Comuns facilitam a troca subterrânea de recursos e sinais, evidenciando uma dimensão cooperativa nos ecossistemas vegetais."
       },
       {
         "letter": "C",
-        "text": "Os modelos evolutivos tradicionais explicam com precisão todas as interações competitivas entre plantas, sem necessidade de    revisões."
+        "text": "Os modelos evolutivos tradicionais explicam com precisão todas as interações competitivas entre plantas, sem necessidade de revisões."
       },
       {
         "letter": "D",
@@ -926,7 +926,7 @@ window.allQuestions = [
       },
       {
         "letter": "D",
-        "text": "comprovar que os fungos evoluíram antes do surgimento das plantas terrestres.     — Verbal Reasoning                                                                                     Página 4 de 5"
+        "text": "comprovar que os fungos evoluíram antes do surgimento das plantas terrestres."
       },
       {
         "letter": "E",
@@ -940,7 +940,7 @@ window.allQuestions = [
     "options": [
       {
         "letter": "A",
-        "text": "Um estudo longitudinal mostrou que adultos que começaram a fazer palavras cruzadas apresentaram menor declínio de    memória em comparação a um grupo de controle com pontuações iniciais idênticas."
+        "text": "Um estudo longitudinal mostrou que adultos que começaram a fazer palavras cruzadas apresentaram menor declínio de memória em comparação a um grupo de controle com pontuações iniciais idênticas."
       },
       {
         "letter": "B",
@@ -970,7 +970,7 @@ window.allQuestions = [
       },
       {
         "letter": "B",
-        "text": "Simultaneamente à mudança de política, a Empresa Y automatizou tarefas burocráticas de inserção de dados que antes    tomavam 20% do tempo de trabalho."
+        "text": "Simultaneamente à mudança de política, a Empresa Y automatizou tarefas burocráticas de inserção de dados que antes tomavam 20% do tempo de trabalho."
       },
       {
         "letter": "C",
@@ -1034,13 +1034,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "propondo um modelo híbrido de escritório como solução intermediária.     — Verbal Reasoning                                                                                   Página 5 de 5"
+        "text": "propondo um modelo híbrido de escritório como solução intermediária."
       }
     ],
     "correct": "A"
   },
   {
-    "question": "Fácil     Data Sufficiency\n\n Qual é o custo total de fabricação de 500 unidades de um determinado produto?\n (1) O custo fixo de produção da fábrica é de R$ 10.000, independentemente da quantidade produzida.\n (2) Cada unidade produzida tem um custo variável de R$ 15.",
+    "question": "Fácil Data Sufficiency\n\n Qual é o custo total de fabricação de 500 unidades de um determinado produto?\n (1) O custo fixo de produção da fábrica é de R$ 10.000, independentemente da quantidade produzida.\n (2) Cada unidade produzida tem um custo variável de R$ 15.",
     "options": [
       {
         "letter": "A",
@@ -1066,7 +1066,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Fácil       Table Analysis\n\n Considere os dados de vendas trimestrais de 4 divisões de uma empresa de varejo (em milhões de reais):\n             Divisão                  1º Trimestre               2º Trimestre               3º Trimestre                    4º Trimestre\n         Eletrônicos                       12                         15                         14                                 22\n\n            Vestuário                      8                          10                         11                                 16\n\n            Alimentos                      20                         21                         20                                 23\n             Móveis                        5                           6                         4                                  9\n\n Qual divisão apresentou o maior aumento percentual em vendas do 3º para o 4º trimestre?",
+    "question": "Fácil Table Analysis\n\n Considere os dados de vendas trimestrais de 4 divisões de uma empresa de varejo (em milhões de reais):\n Divisão 1º Trimestre 2º Trimestre 3º Trimestre 4º Trimestre\n Eletrônicos 12 15 14 22\n\n Vestuário 8 10 11 16\n\n Alimentos 20 21 20 23\n Móveis 5 6 4 9\n\n Qual divisão apresentou o maior aumento percentual em vendas do 3º para o 4º trimestre?",
     "options": [
       {
         "letter": "A",
@@ -1092,7 +1092,7 @@ window.allQuestions = [
     "correct": "D"
   },
   {
-    "question": "Fácil     Graphical Interpretation\n\n Um gráfico de barras exibe o número de clientes atendidos por uma startup em 5 meses: Jan (200), Fev (300), Mar (450), Abr (600), Mai\n (900). Se a meta para Junho é superar a média mensal do período de Jan a Mai em pelo menos 50%, qual deve ser o número mínimo de\n clientes em Junho?",
+    "question": "Fácil Graphical Interpretation\n\n Um gráfico de barras exibe o número de clientes atendidos por uma startup em 5 meses: Jan (200), Fev (300), Mar (450), Abr (600), Mai\n (900). Se a meta para Junho é superar a média mensal do período de Jan a Mai em pelo menos 50%, qual deve ser o número mínimo de\n clientes em Junho?",
     "options": [
       {
         "letter": "A",
@@ -1115,10 +1115,10 @@ window.allQuestions = [
         "text": "900"
       }
     ],
-    "correct": "C"
+    "correct": "B"
   },
   {
-    "question": "Fácil     Two-Part Analysis\n\n Um fundo de investimentos alocou R$ 100.000 entre dois ativos, A e B. O ativo A rendeu 10% no ano e o ativo B rendeu 5%. Se o\n rendimento total do fundo no ano foi de R$ 8.000, quais foram os valores investidos no Ativo A e no Ativo B, respectivamente?",
+    "question": "Fácil Two-Part Analysis\n\n Um fundo de investimentos alocou R$ 100.000 entre dois ativos, A e B. O ativo A rendeu 10% no ano e o ativo B rendeu 5%. Se o\n rendimento total do fundo no ano foi de R$ 8.000, quais foram os valores investidos no Ativo A e no Ativo B, respectivamente?",
     "options": [
       {
         "letter": "A",
@@ -1144,7 +1144,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Média    Data Sufficiency\n\n    x y são números inteiros positivos, o produto xy é um número par?\n Se e\n (1)3x + 2y é um número ímpar.\n (2)x + y é um número ímpar.",
+    "question": "Média Data Sufficiency\n\n x y são números inteiros positivos, o produto xy é um número par?\n Se e\n (1)3x + 2y é um número ímpar.\n (2)x + y é um número ímpar.",
     "options": [
       {
         "letter": "A",
@@ -1167,10 +1167,10 @@ window.allQuestions = [
         "text": "As afirmações (1) e (2) JUNTAS NÃO são suficientes."
       }
     ],
-    "correct": "D"
+    "correct": "B"
   },
   {
-    "question": "Média      Table Analysis\n\n Tabela de Indicadores operacionais de 5 Filiais Industriais:\n\n      Filial           Funcionários               Produção (Unidades)                    Custo Total (R$)         Taxa de Defeito (%)\n       Alfa                 50                          100.000                            R$ 400.000                     2,0%\n\n      Beta                  80                          180.000                            R$ 630.000                     1,5%\n\n      Gama                  40                           75.000                            R$ 300.000                     3,0%\n      Delta                 60                          150.000                            R$ 525.000                     1,0%\n\n     Épsilon                100                         220.000                            R$ 880.000                     2,5%\n\n Qual filial possui o menor custo médio unitário de produção por unidade NÃO defeituosa?",
+    "question": "Média Table Analysis\n\n Tabela de Indicadores operacionais de 5 Filiais Industriais:\n\n Filial Funcionários Produção (Unidades) Custo Total (R$) Taxa de Defeito (%)\n Alfa 50 100.000 R$ 400.000 2,0%\n\n Beta 80 180.000 R$ 630.000 1,5%\n\n Gama 40 75.000 R$ 300.000 3,0%\n Delta 60 150.000 R$ 525.000 1,0%\n\n Épsilon 100 220.000 R$ 880.000 2,5%\n\n Qual filial possui o menor custo médio unitário de produção por unidade NÃO defeituosa?",
     "options": [
       {
         "letter": "A",
@@ -1196,7 +1196,7 @@ window.allQuestions = [
     "correct": "D"
   },
   {
-    "question": "Média    Graphical Interpretation\n\n Um gráfico de dispersão (scatter plot) cruza o Investimento em Marketing (em R$ mil) no eixo X com o Retorno de Vendas (em R$ mil) no\n eixo Y para 10 campanhas. A linha de tendência linear é dada por    Y = 2,5X + 10   . Se uma nova campanha investiu R$ 20 mil e obteve um\n retorno real de R$ 68 mil, qual foi o residual (diferença entre o valor real e o previsto pela linha de tendência)?",
+    "question": "Média Graphical Interpretation\n\n Um gráfico de dispersão (scatter plot) cruza o Investimento em Marketing (em R$ mil) no eixo X com o Retorno de Vendas (em R$ mil) no\n eixo Y para 10 campanhas. A linha de tendência linear é dada por Y = 2,5X + 10 . Se uma nova campanha investiu R$ 20 mil e obteve um\n retorno real de R$ 68 mil, qual foi o residual (diferença entre o valor real e o previsto pela linha de tendência)?",
     "options": [
       {
         "letter": "A",
@@ -1222,7 +1222,7 @@ window.allQuestions = [
     "correct": "A"
   },
   {
-    "question": "Média      Two-Part Analysis\n\n Um projeto exige o trabalho contínuo de dois consultores. O Consultor X cobra uma taxa fixa de R$ 1.000 mais R$ 80 por hora. O Consultor\n                                                                                     H\n Y cobra R$ 120 por hora sem taxa fixa. Determine para qual quantidade de horas o custo total dos dois consultores é rigorosamente\n                                      V\n igual, e qual é o valor total cobrado por cada um nesse ponto.",
+    "question": "Média Two-Part Analysis\n\n Um projeto exige o trabalho contínuo de dois consultores. O Consultor X cobra uma taxa fixa de R$ 1.000 mais R$ 80 por hora. O Consultor\n H\n Y cobra R$ 120 por hora sem taxa fixa. Determine para qual quantidade de horas o custo total dos dois consultores é rigorosamente\n V\n igual, e qual é o valor total cobrado por cada um nesse ponto.",
     "options": [
       {
         "letter": "A",
@@ -1248,7 +1248,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Multi-Source Reasoning (Conjunto das Questões 09, 10 e 11):\nAba 1 (Relatório de Frota): A transportadora LogX opera 100 caminhões. 60 caminhões são do Modelo Leve (consumo: 8 km/L) e 40 do Modelo Pesado (consumo: 5 km/L).\nAba 2 (Política de Combustível): O preço do diesel é de R$ 6,00/L. O governo concederá um desconto de 10% no preço do litro para frotas com média de consumo global igual ou superior a 7,0 km/L.\n\nMédia     MSR\n\n Com base nas informações prestadas, qual é a média ponderada de consumo de combustível da frota inteira da LogX?",
+    "question": "Multi-Source Reasoning (Conjunto das Questões 09, 10 e 11):\nAba 1 (Relatório de Frota): A transportadora LogX opera 100 caminhões. 60 caminhões são do Modelo Leve (consumo: 8 km/L) e 40 do Modelo Pesado (consumo: 5 km/L).\nAba 2 (Política de Combustível): O preço do diesel é de R$ 6,00/L. O governo concederá um desconto de 10% no preço do litro para frotas com média de consumo global igual ou superior a 7,0 km/L.\n\nMédia MSR\n\n Com base nas informações prestadas, qual é a média ponderada de consumo de combustível da frota inteira da LogX?",
     "options": [
       {
         "letter": "A",
@@ -1274,7 +1274,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Difícil   MSR\n\n A LogX qualificou-se para o desconto de 10% do governo? E qual será o custo total com combustível se toda a frota percorrer uma média\n de 1.000 km por caminhão no mês?",
+    "question": "Difícil MSR\n\n A LogX qualificou-se para o desconto de 10% do governo? E qual será o custo total com combustível se toda a frota percorrer uma média\n de 1.000 km por caminhão no mês?",
     "options": [
       {
         "letter": "A",
@@ -1297,10 +1297,10 @@ window.allQuestions = [
         "text": "Qualificada | Custo Total: R$ 85.500"
       }
     ],
-    "correct": "A"
+    "correct": "D"
   },
   {
-    "question": "Difícil   MSR\n\n                       N\n Se a LogX substituir caminhões do Modelo Pesado por caminhões do Modelo Leve para elevar a média global de consumo da frota para\n exatamente 7,2 km/L, qual deve ser o valor de ? N",
+    "question": "Difícil MSR\n Se a LogX substituir N caminhões do Modelo Pesado por N caminhões do Modelo Leve para elevar a média global de consumo da frota para exatamente 7,25 km/L, qual deve ser o valor de N?",
     "options": [
       {
         "letter": "A",
@@ -1323,10 +1323,10 @@ window.allQuestions = [
         "text": "20"
       }
     ],
-    "correct": "C"
+    "correct": "D"
   },
   {
-    "question": "Difícil   Data Sufficiency\n\n Uma empresa contratou funcionários nos cargos P e Q. Qual é a razão entre o número de funcionários do cargo P e o número de\n funcionários do cargo Q?\n (1) O salário médio de todos os funcionários é de R$ 6.000.\n (2) O salário médio do cargo P é R$ 5.000 e o salário médio do cargo Q é R$ 8.000.",
+    "question": "Difícil Data Sufficiency\n\n Uma empresa contratou funcionários nos cargos P e Q. Qual é a razão entre o número de funcionários do cargo P e o número de\n funcionários do cargo Q?\n (1) O salário médio de todos os funcionários é de R$ 6.000.\n (2) O salário médio do cargo P é R$ 5.000 e o salário médio do cargo Q é R$ 8.000.",
     "options": [
       {
         "letter": "A",
@@ -1352,7 +1352,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Difícil    Table Analysis\n\n Análise de Riscos de Portfólio Financeiro (Ativos A, B, C, D, E):\n        Ativo                    Retorno Esperado (%)                            Desvio Padrão (%)                      Beta de Mercado\n\n       Ativo A                           12%                                            8%                                      0,9\n\n       Ativo B                           15%                                           12%                                      1,3\n       Ativo C                            9%                                            5%                                      0,6\n\n       Ativo D                           18%                                           16%                                      1,5\n\n       Ativo E                           11%                                            7%                                      0,8\n\n O Índice de Sharpe Simplificado é medido pela razão     (Retorno - 4%) / Desvio Padrão, onde 4% é a taxa livre de risco. Qual ativo apresenta o\n segundo maior Índice de Sharpe?",
+    "question": "Difícil Table Analysis\n\n Análise de Riscos de Portfólio Financeiro (Ativos A, B, C, D, E):\n Ativo | Retorno Esperado (%) | Desvio Padrão (%)\n Ativo A | 12% | 8%\n Ativo B | 15% | 10%\n Ativo C | 9% | 6%\n Ativo D | 19% | 12%\n Ativo E | 11% | 8%\n\n O Índice de Sharpe Simplificado é medido pela razão (Retorno - 4%) / Desvio Padrão, onde 4% é a taxa livre de risco. Qual ativo apresenta o segundo maior Índice de Sharpe?",
     "options": [
       {
         "letter": "A",
@@ -1378,7 +1378,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Difícil    Graphical Interpretation\n\n Em uma curva normal de distribuição de salários de uma multinacional, a média é R$ 10.000 e o desvio padrão é R$ 2.000. Utilizando a\n regra empírica da distribuição normal (68%-95%-99,7%), aproximadamente qual porcentagem de funcionários recebe salários entre R$\n 6.000 e R$ 12.000?",
+    "question": "Difícil Graphical Interpretation\n\n Em uma curva normal de distribuição de salários de uma multinacional, a média é R$ 10.000 e o desvio padrão é R$ 2.000. Utilizando a\n regra empírica da distribuição normal (68%-95%-99,7%), aproximadamente qual porcentagem de funcionários recebe salários entre R$\n 6.000 e R$ 12.000?",
     "options": [
       {
         "letter": "A",
@@ -1404,7 +1404,7 @@ window.allQuestions = [
     "correct": "A"
   },
   {
-    "question": "Média      Data Sufficiency\n\n Um grupo de 80 estudantes respondeu a uma pesquisa sobre dois cursos optativos, Finanças e Marketing. Quantos estudantes não\n escolheram nenhum dos dois cursos?\n (1) 45 estudantes escolheram Finanças e 35 escolheram Marketing.\n (2) 15 estudantes escolheram ambos os cursos.",
+    "question": "Média Data Sufficiency\n\n Um grupo de 80 estudantes respondeu a uma pesquisa sobre dois cursos optativos, Finanças e Marketing. Quantos estudantes não\n escolheram nenhum dos dois cursos?\n (1) 45 estudantes escolheram Finanças e 35 escolheram Marketing.\n (2) 15 estudantes escolheram ambos os cursos.",
     "options": [
       {
         "letter": "A",
@@ -1430,7 +1430,7 @@ window.allQuestions = [
     "correct": "C"
   },
   {
-    "question": "Difícil     Two-Part Analysis\n\n Um investidor aloca recursos em dois ativos: Ações e Títulos. As Ações oferecem retorno de 15% ao ano com volatilidade alta, e os Títulos\n oferecem 8% ao ano. Se a meta é obter uma carteira consolidada de R$ 200.000 com um retorno médio ponderado de exatamente 10,8%\n ao ano, quanto deve ser investido em Ações e em Títulos?",
+    "question": "Difícil Two-Part Analysis\n\n Um investidor aloca recursos em dois ativos: Ações e Títulos. As Ações oferecem retorno de 15% ao ano com volatilidade alta, e os Títulos\n oferecem 8% ao ano. Se a meta é obter uma carteira consolidada de R$ 200.000 com um retorno médio ponderado de exatamente 10,8%\n ao ano, quanto deve ser investido em Ações e em Títulos?",
     "options": [
       {
         "letter": "A",
@@ -1456,7 +1456,7 @@ window.allQuestions = [
     "correct": "A"
   },
   {
-    "question": "Fácil    Data Sufficiency\n\n  Qual é o valor numérico da variável ?   x\n  (1)   2x + 4 = 12\n  (2)   x2 = 16",
+    "question": "Fácil Data Sufficiency\n\n Qual é o valor numérico da variável ? x\n (1) 2x + 4 = 12\n (2) x2 = 16",
     "options": [
       {
         "letter": "A",
@@ -1482,7 +1482,7 @@ window.allQuestions = [
     "correct": "A"
   },
   {
-    "question": "Média     Table Analysis\n\n  Uma tabela indica as taxas de conversão de e-commerce por dispositivo: Desktop (4,0%), Mobile (2,0%), Tablet (2,5%). Se o site recebeu\n  100.000 visitas no Mobile e 20.000 no Desktop, qual foi a taxa de conversão média ponderada combinada dessas duas fontes?",
+    "question": "Média Table Analysis\n\n Uma tabela indica as taxas de conversão de e-commerce por dispositivo: Desktop (4,0%), Mobile (2,0%), Tablet (2,5%). Se o site recebeu\n 100.000 visitas no Mobile e 20.000 no Desktop, qual foi a taxa de conversão média ponderada combinada dessas duas fontes?",
     "options": [
       {
         "letter": "A",
@@ -1508,7 +1508,7 @@ window.allQuestions = [
     "correct": "A"
   },
   {
-    "question": "Difícil    Graphical Interpretation\n\n  Em um gráfico acumulado de receita mensal de uma SaaS, a receita recorrente anual (ARR) cresce a uma taxa composta de 5% ao mês.\n  Se o ARR inicial no mês 0 era de R$ 100.000, qual é a aproximação mais precisa do ARR ao final do mês 3?",
+    "question": "Difícil Graphical Interpretation\n\n Em um gráfico acumulado de receita mensal de uma SaaS, a receita recorrente anual (ARR) cresce a uma taxa composta de 5% ao mês.\n Se o ARR inicial no mês 0 era de R$ 100.000, qual é a aproximação mais precisa do ARR ao final do mês 3?",
     "options": [
       {
         "letter": "A",
@@ -1534,7 +1534,7 @@ window.allQuestions = [
     "correct": "B"
   },
   {
-    "question": "Difícil   Data Sufficiency\n\n  Qual é o valor da mediana do conjunto de números inteiros           {3, 7, 9, x, y}?\n  (1)   x<y<5\n  (2) A média aritmética do conjunto é igual a 6.",
+    "question": "Difícil Data Sufficiency\n\n Qual é o valor da mediana do conjunto de números inteiros {3, 7, 9, x, y}?\n (1) x = y\n (2) A média aritmética do conjunto é igual a 7.",
     "options": [
       {
         "letter": "A",
@@ -1554,9 +1554,9 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "Insuficientes.   Gabarito & Soluções Resumidas Q01"
+        "text": "As afirmações (1) e (2) JUNTAS NÃO são suficientes."
       }
     ],
-    "correct": "A"
+    "correct": "C"
   }
 ];
