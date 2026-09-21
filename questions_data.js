@@ -602,13 +602,29 @@ window.allQuestions = [
     "options": [
       {
         "letter": "A",
-        "text": "Helena concluiu o módulo avançado de cibersegurança.    — Verbal Reasoning                                                                                      Página 1 de 5 \f  TEXTO 1 (QUESTÕES 05–08) — NEGÓCIOS & MACROECONOMIA    Durante décadas, economistas acreditaram que altas alíquotas de imposto corporativo desestimulavam universalmente o   investimento direto estrangeiro (IDE). Os modelos econômicos tradicionais postulavam que as corporações multinacionais   invariavelmente alocavam capital em jurisdições que oferecessem os menores encargos fiscais efetivos. No entanto, estudos   empíricos recentes que analisam os fluxos de IDE em mercados emergentes revelam uma realidade mais complexa. Embora   os incentivos fiscais influenciem as decisões de localização, fatores institucionais — como a independência do judiciário, a   transparência regulatória e a qualidade da infraestrutura — exercem uma influência significativamente maior sobre os   compromissos de capital de longo prazo.   Em nações onde os direitos de propriedade são mal protegidos, impostos baixos não compensam o risco de expropriação   arbitrária de ativos ou de volatilidade regulatória. Por outro lado, países com proteções jurídicas sólidas e redes logísticas   bem desenvolvidas atraem consistentemente volumes expressivos de IDE, mesmo mantendo alíquotas corporativas   moderadas a altas. Assim, iniciativas governamentais focadas exclusivamente em cortes de impostos, sem reformas   institucionais concomitantes, dificilmente gerarão ganhos sustentáveis de investimento estrangeiro."
+        "text": "Helena concluiu o módulo avançado de cibersegurança."
+      },
+      {
+        "letter": "B",
+        "text": "Helena não reprovou no treinamento de ética neste ano."
+      },
+      {
+        "letter": "C",
+        "text": "Helena foi a única engenheira promovida há quatro meses."
+      },
+      {
+        "letter": "D",
+        "text": "O módulo de cibersegurança é mais importante que o treinamento de ética."
+      },
+      {
+        "letter": "E",
+        "text": "Engenheiros que reprovam em ética nunca são promovidos na carreira."
       }
     ],
-    "correct": "D"
+    "correct": "B"
   },
   {
-    "question": "IT — Idéia Central\n\n O objetivo principal do texto é:",
+    "question": "TEXTO 1 (QUESTÕES 05-08) - NEGÓCIOS & MACROECONOMIA\nDurante décadas, economistas acreditaram que altas alíquotas de imposto corporativo desestimulavam universalmente o investimento direto estrangeiro (IDE). Os modelos econômicos tradicionais postulavam que as corporações multinacionais invariavelmente alocavam capital em jurisdições que oferecessem os menores encargos fiscais efetivos. No entanto, estudos empíricos recentes que analisam os fluxos de IDE em mercados emergentes revelam uma realidade mais complexa. Embora os incentivos fiscais influenciem as decisões de localização, fatores institucionais — como a independência do judiciário, a transparência regulatória e a qualidade da infraestrutura — exercem uma influência significativamente maior sobre os compromissos de capital de longo prazo. Em nações onde os direitos de propriedade são mal protegidos, impostos baixos não compensam o risco de expropriação arbitrária de ativos ou de volatilidade regulatória. Por outro lado, países com proteções jurídicas sólidas e redes logísticas bem desenvolvidas atraem consistentemente volumes expressivos de IDE, mesmo mantendo alíquotas corporativas moderadas a altas. Assim, iniciativas governamentais focadas exclusivamente em cortes de impostos, sem reformas institucionais concomitantes, dificilmente gerarão ganhos sustentáveis de investimento estrangeiro.\n\nIT — Idéia Central\n\n O objetivo principal do texto é:",
     "options": [
       {
         "letter": "A",
@@ -810,13 +826,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "A câmara municipal aprovou um novo imposto predial sobre imóveis comerciais.     — Verbal Reasoning                                                                                       Página 3 de 5 \f  TEXTO 2 (QUESTÕES 13–16) — CIÊNCIAS DA VIDA & ECOLOGIA    Os fungos micorrízicos estabelecem associações simbióticas com o sistema radicular de aproximadamente 90% das   espécies de plantas terrestres. Nessa relação mutualística, os fungos absorvem minerais essenciais do solo —   predominantemente fósforo e nitrogênio — e os transferem para a planta hospedeira. Em troca, a planta fornece aos fungos   compostos de carbono derivados da fotossíntese. Pesquisas recentes indicam que essas redes fúngicas se estendem muito   além de pares individuais de plantas, formando complexas estruturas subterrâneas conhecidas como Redes Micorrízicas   Comuns (RMCs), que conectam múltiplas plantas, inclusive de espécies distintas.   Por meio das RMCs, as plantas conseguem transferir carbono, nutrientes e sinais bioquímicos de alerta para vegetais   vizinhos. Por exemplo, quando uma planta é atacada por insetos herbívoros, ela pode emitir moléculas sinalizadoras pela rede   fúngica para alertar plantas adjacentes não infestadas, permitindo que estas sintetizem antecipadamente defesas químicas.   Essa descoberta desafia os modelos evolutivos tradicionais, que interpretavam as interações entre plantas como puramente   antagônicas e competitivas, revelando que redes cooperativas subterrâneas desempenham um papel vital na resiliência dos   ecossistemas."
+        "text": "A câmara municipal aprovou um novo imposto predial sobre imóveis comerciais.     — Verbal Reasoning                                                                                       Página 3 de 5"
       }
     ],
     "correct": "B"
   },
   {
-    "question": "IT — Idéia Central\n\n Qual das seguintes opções melhor expressa a ideia central do texto?",
+    "question": "TEXTO 2 (QUESTÕES 13-16) - CIÊNCIAS DA VIDA & ECOLOGIA\nOs fungos micorrízicos estabelecem associações simbióticas com o sistema radicular de aproximadamente 90% das espécies de plantas terrestres. Nessa relação mutualística, os fungos absorvem minerais essenciais do solo — predominantemente fósforo e nitrogênio — e os transferem para a planta hospedeira. Em troca, a planta fornece aos fungos compostos de carbono derivados da fotossíntese. Pesquisas recentes indicam que essas redes fúngicas se estendem muito além de pares individuais de plantas, formando complexas estruturas subterrâneas conhecidas como Redes Micorrízicas Comuns (RMCs), que conectam múltiplas plantas, inclusive de espécies distintas. Por meio das RMCs, as plantas conseguem transferir carbono, nutrientes e sinais bioquímicos de alerta para vegetais vizinhos. Por exemplo, quando uma planta é atacada por insetos herbívoros, ela pode emitir moléculas sinalizadoras pela rede fúngica para alertar plantas adjacentes não infestadas, permitindo que estas sintetizem antecipadamente defesas químicas. Essa descoberta desafia os modelos evolutivos tradicionais, que interpretavam as interações entre plantas como puramente antagônicas e competitivas, revelando que redes cooperativas subterrâneas desempenham um papel vital na resiliência dos ecossistemas.\n\nIT — Idéia Central\n\n Qual das seguintes opções melhor expressa a ideia central do texto?",
     "options": [
       {
         "letter": "A",
@@ -911,6 +927,10 @@ window.allQuestions = [
       {
         "letter": "D",
         "text": "comprovar que os fungos evoluíram antes do surgimento das plantas terrestres.     — Verbal Reasoning                                                                                     Página 4 de 5"
+      },
+      {
+        "letter": "E",
+        "text": "minimizar a importância das Redes Micorrízicas Comuns na ecologia atual."
       }
     ],
     "correct": "B"
@@ -1118,7 +1138,7 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "Ativo A: R$ 30.000 | Ativo B: R$ 70.000      — Data Insights                                                                                                        Página 1 de 5"
+        "text": "Ativo A: R$ 30.000 | Ativo B: R$ 70.000"
       }
     ],
     "correct": "B"
@@ -1222,13 +1242,13 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "H = 15 horas | V = R$ 1.800      — Data Insights                                                                                                 Página 2 de 5 \f  Multi-Source Reasoning (Conjunto das Questões 09, 10 e 11):   Aba 1 (Relatório de Frota): A transportadora LogX opera 100 caminhões. 60 caminões são do Modelo Leve (consumo: 8 km/L) e 40 do   Modelo Pesado (consumo: 5 km/L).   Aba 2 (Política de Combustível): O preço do diesel é de R$ 6,00/L. O governo concederá um desconto de 10% no preço do litro para frotas   com média de consumo global igual ou superior a 7,0 km/L."
+        "text": "H = 15 horas | V = R$ 1.800"
       }
     ],
     "correct": "B"
   },
   {
-    "question": "Média     MSR\n\n Com base nas informações prestadas, qual é a média ponderada de consumo de combustível da frota inteira da LogX?",
+    "question": "Multi-Source Reasoning (Conjunto das Questões 09, 10 e 11):\nAba 1 (Relatório de Frota): A transportadora LogX opera 100 caminhões. 60 caminhões são do Modelo Leve (consumo: 8 km/L) e 40 do Modelo Pesado (consumo: 5 km/L).\nAba 2 (Política de Combustível): O preço do diesel é de R$ 6,00/L. O governo concederá um desconto de 10% no preço do litro para frotas com média de consumo global igual ou superior a 7,0 km/L.\n\nMédia     MSR\n\n Com base nas informações prestadas, qual é a média ponderada de consumo de combustível da frota inteira da LogX?",
     "options": [
       {
         "letter": "A",
@@ -1326,7 +1346,7 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "As afirmações (1) e (2) JUNTAS NÃO são suficientes.      — Data Insights                                                                                                 Página 3 de 5"
+        "text": "As afirmações (1) e (2) JUNTAS NÃO são suficientes."
       }
     ],
     "correct": "C"
@@ -1430,7 +1450,7 @@ window.allQuestions = [
       },
       {
         "letter": "E",
-        "text": "Ações: R$ 70.000 | Títulos: R$ 130.000      — Data Insights                                                                                                         Página 4 de 5"
+        "text": "Ações: R$ 70.000 | Títulos: R$ 130.000"
       }
     ],
     "correct": "A"
